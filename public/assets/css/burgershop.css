@@ -1,0 +1,106 @@
+body {
+    position: relative;
+}
+/*------css compte, deconnexion, connexion et inscription nav-bar ------*/
+.nav-item-custom,.nav-item-custom a {
+    color: #fff;
+}
+
+/*------css footer\base.html.twig------*/
+.footer-custom{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    padding-top: 25px;
+    color: white;
+    margin-top: 50px;
+
+}
+.float-right{
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: darkred;
+}
+/*------css compte------*/
+.titi{
+    color: #1b1e21;
+}
+
+/*------css account\index.html.twig------*/
+.move{
+    text-align: center;
+    padding-top: 25px;
+    background-color: wheat;
+    margin-top: 50px;
+}
+
+/*------css inscription\ register\index.html.twig------*/
+.content{
+    text-align: center;
+    background-color: wheat;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+   margin-bottom: 80px;
+
+
+}
+::placeholder{
+    text-align: center;
+}
+
+/*------css login.html.twig------*/
+.connexion{
+    text-align: center;
+    padding-top: 25px;
+    background-color: wheat;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 80px;
+
+}
+input{
+    text-align: center;
+
+}
+
+.product-item h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+.product-item{
+    margin-top: 15px;
+}
+.product-item .product-subtitle {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+.product-item .product-price {
+    font-size: 15px;
+    font-weight: bold;
+}
+h1{
+   padding-top: 50px;
+}
+#bip{
+    padding-top: 60px;
+    background-color: wheat;
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+h1 {
+    color: darkred;
+}
+
+.container {
+    justify-content: center;
+}
+.product-page-price {
+    font-size: 18px;
+}
+.cart-icon{
+    height: 20px;
+    padding-left: 20px;
+}

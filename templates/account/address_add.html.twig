@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ajouter une adresse - BURGERSHOP{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+
+    <div class="move">
+        <h1 class="titi">Ajouter une adresse</h1>
+        <a href="{{ path('account') }}">Retour</a><br/><br/>
+       <hr>
+        {{ form(form) }}
+        </div>
+    </div>
+</div>
+{% endblock %}

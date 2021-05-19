@@ -1,0 +1,58 @@
+{% extends 'base.html.twig' %}
+
+{% block carousel %}{% endblock %}
+
+{% block content %}
+
+    <div class="container marketing">
+            <!-- Three columns of text below the carousel -->
+            <h2>Nos produits </h2>
+            <p>Découvrez nos produits </p>
+        <div class="row">
+           {% for product in products %}
+               <div class="col-md-3">
+                   {% include 'product/single_product.html.twig' %}
+               </div>
+            {% endfor %}
+        </div>
+        <!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Une boutique qui satisfait ces clients  <span class="text-muted">avec une équipe très professionnel à votre service.</span></h2><br/>
+                <p class="lead"><strong>Nos boutique vous reçois 7/7 et 24/24, vous serez toujours les bienvenue sur notre site, un site qui répondra à toutes vos demandes.</strong></p>
+            </div>
+            <div class="col-md-5">
+                <img src="{{ asset('assets/img/first.jpg')}}" class="img-fluid"  alt="Un savoir faire burgershop">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Bienvenue  dans nos différentes boutique  <span class="text-muted">sur toute la France </span></h2><br/>
+                <p class="lead"><stron>Nos boutiques sont implanté dans toute la France, venez commander chez nous, vous serez bien reçu et bien servi. Nos équipes serons votre service avec le sourire et toute l'amabilité dans il font preuve. </stron></p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="{{ asset('assets/img/second.jpg')}}" class="img-fluid" alt="Burgershop une boutique ouverte toute l'année">
+            </div>
+        </div>
+
+
+    </div>
+
+        <!-- /END THE FEATURETTES -->
+
+
+
+{% endblock %}
+
+
+
+

@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mes adresses - BURGERSHOP{% endblock %}
+
+{% block content %}
+    <div class="move">
+
+            <a href="{{ path('account_address_add') }}" class="btn btn-info btn-sm float-right"><strong>Ajouter une adresse</strong></a>
+            <h1 class="titi">Mes adresses</h1>
+            C'est dans cet espace que vous allez pouvoir gérer toutes vos adresses.<br/>
+            <a href="{{ path('account') }}" class="titi">Retour</a><br/><br/>
+            <hr>
+                <p class="text-center">
+                    vous n'avez pas encore ajouté d'adresse dans votre compte client.Pour en ajouter une,veuillez <a href="{{ path('account_address_add') }}" class="titi">Cliquer ici</a>
+                </p>
+        {% if app.user.addresses|length == 0 %}
+        {% else %}
+            <div class="row">
+                 {% for address in app.user.addresses %}
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="move">
+                                <div class="card-body">
+                                     <h5 class="card-title">{{ address.name }}</h5>
+                                    <p class="card-text">
+                                        {{ address.address }},<br/>
+                                        {{ address.postal }} - {{ address.city }} - {{ address.country }}
+                                    </p>
+                                        <a href="{{ path('account_address_edit', { 'id' : address.id}) }}"  class="titi">Modifier</a> | <a href="{{path('account_address_delete', { 'id' : address.id}) }}"  class="titi">Supprimer</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 {% endfor%}
+            </div>
+
+        {% endif %}
+    </div>
+{% endblock %}

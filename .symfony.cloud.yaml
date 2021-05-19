@@ -41,11 +41,15 @@ web:
             root: "public"
             expires: 1h
             passthru: "/index.php"
-
+        '/upload':
+            root: 'public/upload'
+            scripts: false
+            allow: true
 
 
 mounts:
     "/var": { source: local, source_path: var }
+    "/public/upload": { source: local, source_path: uploads }
 
 hooks:
     build: |

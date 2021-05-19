@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45081820-92d2-47da-992c-a3d1497f4e45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/burger_shop_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/burger_shop_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.symfony/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.symfony/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.symfony.cloud.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.symfony.cloud.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -451,7 +445,7 @@
       <workItem from="1621176443811" duration="2554000" />
       <workItem from="1621242259759" duration="4364000" />
       <workItem from="1621320560596" duration="9002000" />
-      <workItem from="1621434817509" duration="5114000" />
+      <workItem from="1621434817509" duration="5571000" />
     </task>
     <servers />
   </component>

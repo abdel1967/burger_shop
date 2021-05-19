@@ -9,6 +9,7 @@ runtime:
         - sodium
         - iconv
         - ctype
+        - pdo_mysql
 
 
 #variables:
@@ -22,7 +23,7 @@ build:
 disk: 512
 
 relationships:
-    database: "db:mysql"
+    database: "mydatabase:mysql"
 
 web:
     locations:

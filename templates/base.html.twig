@@ -59,8 +59,8 @@
                     <div class="nav-item-custom">
                         {% if app.user %}
                             <a href="{{ path('account') }}">
-                                <img src="{{ asset('assets/img/user_icon.png') }}" class="cart-icon" alt="User icon">
-                                <small>({{ app.user.firstname }})</small></a> | <a href="{{ path('app_logout') }}"class="btn btn-lg btn-warning">DÉCONNEXION</a>
+                                <img src="{{ asset('assets/img/user_icon.png') }}" style="height: 40px; width: 40px" alt="User icon">
+                                 ( {{ app.user.firstname }} )</a> | <a href="{{ path('app_logout') }}"class="btn btn-lg btn-warning">DÉCONNEXION</a>
                         {% else %}
                             <a href="{{ path('app_login') }}" class="btn btn-lg btn-warning">CONNEXION</a> | <a href="{{ path('register') }}" class="btn btn-lg btn-primary">INSCRIPTION</a>
                         {% endif %}

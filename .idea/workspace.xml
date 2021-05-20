@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="45081820-92d2-47da-992c-a3d1497f4e45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +153,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -159,6 +161,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\burger_shop_project" />
       <recent name="C:\xampp\htdocs\burger_shop_project\templates" />
       <recent name="C:\xampp\htdocs\burger_shop_project\tests" />
     </key>
@@ -438,7 +441,9 @@
       <workItem from="1621176443811" duration="2554000" />
       <workItem from="1621242259759" duration="4364000" />
       <workItem from="1621320560596" duration="9002000" />
-      <workItem from="1621434817509" duration="11182000" />
+      <workItem from="1621434817509" duration="14549000" />
+      <workItem from="1621504137109" duration="3544000" />
+      <workItem from="1621521792139" duration="318000" />
     </task>
     <servers />
   </component>

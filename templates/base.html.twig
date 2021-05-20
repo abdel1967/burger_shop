@@ -60,20 +60,20 @@
                         {% if app.user %}
                             <a href="{{ path('account') }}">COMPTE<small>({{ app.user.firstname }})</small></a> | <a href="{{ path('app_logout') }}">DÉCONNEXION</a>
                         {% else %}
-                            <a href="{{ path('app_login') }}" class="btn-danger">CONNEXION</a> | <a href="{{ path('register') }}" class="btn-success">INSCRIPTION</a>
+                            <a href="{{ path('app_login') }}">CONNEXION</a> | <a href="{{ path('register') }}">INSCRIPTION</a>
                         {% endif %}
                     </div>
                         <a href="{{ path('cart') }}">
-                            <img src="{{ asset('assets/img/shopping-cart.png') }}" class="cart-icon" alt="Mon panier">
+                            <img src="{{ asset('assets/img/cart.png') }}" class="cart-icon" alt="Mon panier">
                         </a>
                 </div>
             </nav>
         </header>
 
-        <main role="main" class="bg-dark">
+        <main role="main">
                     {% if block('carousel') is defined %}
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators ">
+                        <ol class="carousel-indicators bg-danger">
                             {% for key,header in headers %}
                                 <li data-target="#myCarousel " data-slide-to="{{ key }}"{% if key == 0%} class="active"{% endif %}></li>
 
@@ -119,7 +119,7 @@
             <footer class="footer-custom bg-secondary">
                 <img src="{{ asset('assets/img/logo.png') }}" class="ml-1 float-left" alt="logo" style="height: 40px; width: 70px">
                 <p class="float-right">
-                    <a href="#" >BACK TO TOP</a>
+                    <a href="#" ><img src="{{ asset('assets/img/backtotop.png') }}" class="ml-1 float-left" alt="logo" style="height: 40px; width: 70px"></a>
                 </p>
 
                 <p>

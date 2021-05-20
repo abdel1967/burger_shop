@@ -440,7 +440,8 @@ hr {
 
 .img-fluid {
     max-width: 100%;
-    height: auto
+    height: auto;
+    border-radius: 10px;
 }
 
 .img-thumbnail {

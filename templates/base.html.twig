@@ -73,7 +73,7 @@
         <main role="main">
                     {% if block('carousel') is defined %}
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators bg-danger">
+                        <ol class="carousel-indicators ">
                             {% for key,header in headers %}
                                 <li data-target="#myCarousel " data-slide-to="{{ key }}"{% if key == 0%} class="active"{% endif %}></li>
 
